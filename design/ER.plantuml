@@ -1,0 +1,20 @@
+@startuml
+entity Post {
+    id: string
+    
+    street: string
+    street_number: string
+    floor: string
+    appartment: string
+    city: string
+    zipcode: string
+    country: string
+    
+    landlord_phone: string
+    landlord_email: string
+    landlord_name: string
+    
+    created_on: timestamp
+    updated_on: timestamp
+}
+@enduml
