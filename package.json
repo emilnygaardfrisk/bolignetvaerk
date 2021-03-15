@@ -1,7 +1,7 @@
 {
   "name": "bolignetvaerk",
   "version": "1.0.0",
-  "description": "open source appartment rental site",
+  "description": "open source apartment rental site",
   "main": "index.js",
   "repository": "git@github.com:emilnygaardfrisk/bolignetvaerk.git",
   "author": "Emil Frisk <emilnygaardfrisk@gmail.com>",
