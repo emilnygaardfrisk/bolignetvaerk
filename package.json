@@ -2,8 +2,11 @@
   "name": "bolignetvaerk",
   "version": "1.0.0",
   "description": "open source apartment rental site",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:emilnygaardfrisk/bolignetvaerk.git",
   "author": "Emil Frisk <emilnygaardfrisk@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
 }
