@@ -1,0 +1,8 @@
+- landlord should be able to post apartment to site
+- rentee should be able to find list of available apartments (or other types of accomodations) filtered by:
+	- area
+	- size (m2)
+	- nr of rooms 
+	- price
+	- type of accomodations
+	- the period of availability
