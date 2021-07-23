@@ -8,12 +8,16 @@
   "license": "MIT",
   "scripts": {
     "lint": "yarn eslint src/ --ext .js,.jsx,.ts,.tsx",
-		"format": "yarn prettier --write src"
+    "format": "yarn prettier --write src",
+    "debug": "nodemon --inspect=0.0.0.0:9229 server.js",
+		"compile": "yarn tsc"
   },
   "devDependencies": {
+    "@types/node": "^15.12.2",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.0",
     "eslint": "^7.27.0",
+    "nodemon": "^2.0.7",
     "prettier": "2.3.0",
     "typescript": "^4.3.2"
   }

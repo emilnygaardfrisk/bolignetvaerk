@@ -1,0 +1,23 @@
+version: '3.1'
+
+services:
+  db:
+    image: mysql
+    restart: always
+    environment: 
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - ./database:/docker-entrypoint-initdb.d
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+  bolignetvaerk:
+    build:
+      context: .
+    ports:
+      - 8000:8000
+      - 9229:9229
+    volumes:
+      - ./dist:/app
